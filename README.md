@@ -11,7 +11,9 @@ Tested with Linux Mint 18.03(Ubuntu 16.03), using ROS kinectic
 
 ## Usage
 After setting up ROS
+
 `rosrun ros_maestro ros_maestro_node` this will start the maestro driver that listens to the `maestro_command` topic. It expects a string as input. The first two digits will be channel number(pad with 0 if necessary), the next four digit will be the speed/location for the motor/servo
+
 A example publisher is also included
 
 ## Credit 

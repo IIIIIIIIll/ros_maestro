@@ -2,8 +2,10 @@
 Connect maestro board from pololu to ROS
 
 ## Environment
-Besure to test your board using the Maestro control center
+Besure to test your board using the Maestro control center. 
+
 You need to install all the pre-reqs listed in the README of their control software. 
+
 For the no longer available `winforms2.0` package, simply use the suggested replacement package by `apt`
 
 ## Testing

@@ -16,7 +16,7 @@ After setting up ROS
 
 `rosrun ros_maestro ros_maestro_node` this will start the maestro driver that listens to the `maestro_command` topic. It expects a string as input. The first two digits will be channel number(pad with 0 if necessary), the next four digit will be the speed/location for the motor/servo
 
-A example publisher is also included
+An example publisher is also included
 
 ## Credit 
 The maestro_driver is a simple ROS wrapper of the cross plaform C program listed on Pololu's document. Feel free to take a look at the original one(https://www.pololu.com/docs/0J40/5.h.1). 
